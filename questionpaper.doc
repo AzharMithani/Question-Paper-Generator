@@ -1,0 +1,167 @@
+MSRIT AI QUETION PAPER 2018----FOR THE FIRST TIME SET BY AN AI
+
+
+UNIT 1
+
+1.Does the fact ¨Spouse(George, Laura) follow from the facts Jim = George and Spouse(Jim, Laura)? If so, give a proof; if not, supply additional axioms as needed. What happens if we use Spouse as a unary function symbol instead of a binary predicate?--(5) REM
+
+2.Given the action schemas and initial state from Figure 10.1, what are all the applicable concrete instances of Fly(p, from,to) in the state described by At(P1, JFK) ? At(P2, SFO) ? Plane(P1) ? Plane(P2) ? Airport(JFK ) ? Airport(SFO) ?--(5) UND
+
+3.Yourgoal is to navigate a robot out of a maze. The robot starts in the center of the maze
+Exercises 113
+facing north. You can turn the robot to face north, east, south, or west. You can direct the robot to move forward a certain distance, although it will stop before hitting a wall. a. Formulate this problem. How large is the state space? b. In navigating a maze, the only place we need to turn is at the intersection of two or more corridors. Reformulate this problem using this observation. How large is the state space now? c. Fromeach point in the maze, we can move in any of the four directions until we reach a turning point, and this is the only action we need to do. Reformulate the problem using these actions. Do we need to keep track of the robotís orientation now? d. In our initial description of the problem we already abstracted from the real world, restricting actions and removing details. List three such simpli?cations we made--(5) Analyze
+
+4.Let us examine the rationality of various vacuum-cleaner agent functions.
+a. Show that the simple vacuum-cleaner agent function described in Figure 2.3 is indeed
+rational under the assumptions listed on page 38.
+b. Describe a rational agent function for the case in which each movement costs one point.
+Does the corresponding agent program require internal state?
+c. Discuss possible agent designs for the cases in which clean squares can become dirty
+and the geography of the environment is unknown. Does it make sense for the agent to
+learn from its experience in these cases? If so, what should it learn? If not, why not?--(5) Analyze
+
+OR
+
+5.Read Turingís original paper on AI (Turing, 1950). In the paper, he discusses several
+objections to his proposed enterprise and his test for intelligence. Which objections still carry
+weight? Are his refutations valid? Can you think of new objections arising from developments
+since he wrote the paper? In the paper, he predicts that, by the year 2000, a computer
+will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator.
+What chance do you think a computer would have today? In another 50 years--(2) REM
+
+6.Prove that backward search with PDDL problems is complete--(8) Evaluate
+
+7. Show that the 8-puzzle states are divided into two disjoint sets, such that any state is reachable from any other state in the same set, while no state is reachable from any state in the other set. (Hint: See Berlekamp et al. (1982).) Devise a procedure to decide which set a given state is in, and explain why this is useful for generating random states. --(10) Create
+
+
+
+UNIT 2
+
+8.Read Turingís original paper on AI (Turing, 1950). In the paper, he discusses several
+objections to his proposed enterprise and his test for intelligence. Which objections still carry
+weight? Are his refutations valid? Can you think of new objections arising from developments
+since he wrote the paper? In the paper, he predicts that, by the year 2000, a computer
+will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator.
+What chance do you think a computer would have today? In another 50 years--(2) REM
+
+9.Prove that Universal Instantiation is sound and that Existential Instantiation produces an inferentially equivalent knowledge base.--(8) Evaluate
+
+10.4 Up to now we have assumed that the plans we create always make sure that an actionís preconditions are satisfied. Let us now investigate what propositional successor-state axioms such as HaveArrowt+1 ? (HaveArrowt ? ¨Shoott ) have to say about actions whose preconditions are not satisfied. a. Show that the axioms predict that nothing will happen when an action is executed in a state where its preconditions are not satisfied. b. Consider a plan p that contains the actions required to achieve a goal but also includes illegal actions. Is it the case that initial state ? successor-state axioms ? p |= goal ? c. With first-order successor-state axioms in situation calculus, is it possible to prove that a plan containing illegal actions will achieve the goal?--(10) Create
+
+OR
+
+11.1.1 Define in your own words: (a) intelligence, (b) artificial intelligence, (c) agent, (d)
+rationality, (e) logical reasoning--(4) UND
+
+12.Explain how to write any given 3-SAT problem of arbitrary size using a single first-order definite clause and no more than 30 ground facts.--(4) Apply
+
+13.Consider a knowledge base containing just two sentences: P(a) and P(b). Does this knowledge base entail ? x P(x)? Explain your answer in terms of models--(8) Analyze
+
+14.Suppose that the performance measure is concerned with just the first T time steps of
+the environment and ignores everything thereafter. Show that a rational agentís action may
+depend not just on the state of the environment but also on the time step it has reached--(4) UND
+
+
+
+UNIT 3
+
+15.From Likes(Jerry,IceCream) it seems reasonable to infer ? x Likes(x,IceCream). Write down a general inference rule, Existential Introduction, that sanctions this inference. EXISTENTIAL INTRODUCTION State carefully the conditions that must be satisfied by the variables and terms involved--(5) REM
+
+16.Given the action schemas and initial state from Figure 10.1, what are all the applicable concrete instances of Fly(p, from,to) in the state described by At(P1, JFK) ? At(P2, SFO) ? Plane(P1) ? Plane(P2) ? Airport(JFK ) ? Airport(SFO) ?--(5) UND
+
+17.Does the fact ¨Spouse(George, Laura) follow from the facts Jim = George and Spouse(Jim, Laura)? If so, give a proof; if not, supply additional axioms as needed. What happens if we use Spouse as a unary function symbol instead of a binary predicate?--(5) Analyze
+
+18.Let us examine the rationality of various vacuum-cleaner agent functions.
+a. Show that the simple vacuum-cleaner agent function described in Figure 2.3 is indeed
+rational under the assumptions listed on page 38.
+b. Describe a rational agent function for the case in which each movement costs one point.
+Does the corresponding agent program require internal state?
+c. Discuss possible agent designs for the cases in which clean squares can become dirty
+and the geography of the environment is unknown. Does it make sense for the agent to
+learn from its experience in these cases? If so, what should it learn? If not, why not?--(5) Analyze
+
+OR
+
+19.Describe the differences and similarities between problem solving and planning.--(4) UND
+
+20.Explain how to write any given 3-SAT problem of arbitrary size using a single first-order definite clause and no more than 30 ground facts.--(4) Apply
+
+21.Consider a knowledge base containing just two sentences: P(a) and P(b). Does this knowledge base entail ? x P(x)? Explain your answer in terms of models--(8) Analyze
+
+22.Suppose that the performance measure is concerned with just the first T time steps of
+the environment and ignores everything thereafter. Show that a rational agentís action may
+depend not just on the state of the environment but also on the time step it has reached--(4) UND
+
+
+
+UNIT 4
+
+23.Read Turingís original paper on AI (Turing, 1950). In the paper, he discusses several
+objections to his proposed enterprise and his test for intelligence. Which objections still carry
+weight? Are his refutations valid? Can you think of new objections arising from developments
+since he wrote the paper? In the paper, he predicts that, by the year 2000, a computer
+will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator.
+What chance do you think a computer would have today? In another 50 years--(2) REM
+
+24.Prove that Universal Instantiation is sound and that Existential Instantiation produces an inferentially equivalent knowledge base.--(8) Evaluate
+
+25.For each of the following assertions, say whether it is true or false and support your
+answer with examples or counterexamples where appropriate.
+a. An agent that senses only partial information about the state cannot be perfectly rational.
+62 Chapter 2. Intelligent Agents
+b. There exist task environments in which no pure reflex agent can behave rationally.
+c. There exists a task environment in which every agent is rational.
+d. The input to an agent program is the same as the input to the agent function.
+e. Every agent function is implementable by some program/machine combination.
+f. Suppose an agent selects its action uniformly at random from the set of possible actions.
+There exists a deterministic task environment in which this agent is rational.
+g. It is possible for a given agent to be perfectly rational in two distinct task environments.
+h. Every agent is rational in an unobservable environment.
+i. A perfectly rational poker-playing agent never loses.--(10) Create
+
+OR
+
+26.Describe the differences and similarities between problem solving and planning.--(4) UND
+
+27.Using the set axioms as examples, write axioms for the list domain, including all the constants, functions, and predicates mentioned in the chapter--(4) Apply
+
+28.Prove that Universal Instantiation is sound and that Existential Instantiation produces an inferentially equivalent knowledge base.--(8) Analyze
+
+29.Suppose that the performance measure is concerned with just the first T time steps of
+the environment and ignores everything thereafter. Show that a rational agentís action may
+depend not just on the state of the environment but also on the time step it has reached--(4) UND
+
+
+
+UNIT 5
+
+30.Read Turingís original paper on AI (Turing, 1950). In the paper, he discusses several
+objections to his proposed enterprise and his test for intelligence. Which objections still carry
+weight? Are his refutations valid? Can you think of new objections arising from developments
+since he wrote the paper? In the paper, he predicts that, by the year 2000, a computer
+will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator.
+What chance do you think a computer would have today? In another 50 years--(2) REM
+
+31.Explain why problem formulation must follow goal formulation. --(3) UND
+
+32.Let us examine the rationality of various vacuum-cleaner agent functions.
+a. Show that the simple vacuum-cleaner agent function described in Figure 2.3 is indeed
+rational under the assumptions listed on page 38.
+b. Describe a rational agent function for the case in which each movement costs one point.
+Does the corresponding agent program require internal state?
+c. Discuss possible agent designs for the cases in which clean squares can become dirty
+and the geography of the environment is unknown. Does it make sense for the agent to
+learn from its experience in these cases? If so, what should it learn? If not, why not?--(5) Apply
+
+33.4 Up to now we have assumed that the plans we create always make sure that an actionís preconditions are satisfied. Let us now investigate what propositional successor-state axioms such as HaveArrowt+1 ? (HaveArrowt ? ¨Shoott ) have to say about actions whose preconditions are not satisfied. a. Show that the axioms predict that nothing will happen when an action is executed in a state where its preconditions are not satisfied. b. Consider a plan p that contains the actions required to achieve a goal but also includes illegal actions. Is it the case that initial state ? successor-state axioms ? p |= goal ? c. With first-order successor-state axioms in situation calculus, is it possible to prove that a plan containing illegal actions will achieve the goal?--(10) Evaluate
+
+OR
+
+34.Yourgoal is to navigate a robot out of a maze. The robot starts in the center of the maze
+Exercises 113
+facing north. You can turn the robot to face north, east, south, or west. You can direct the robot to move forward a certain distance, although it will stop before hitting a wall. a. Formulate this problem. How large is the state space? b. In navigating a maze, the only place we need to turn is at the intersection of two or more corridors. Reformulate this problem using this observation. How large is the state space now? c. Fromeach point in the maze, we can move in any of the four directions until we reach a turning point, and this is the only action we need to do. Reformulate the problem using these actions. Do we need to keep track of the robotís orientation now? d. In our initial description of the problem we already abstracted from the real world, restricting actions and removing details. List three such simpli?cations we made--(5) UND
+
+35.From Likes(Jerry,IceCream) it seems reasonable to infer ? x Likes(x,IceCream). Write down a general inference rule, Existential Introduction, that sanctions this inference. EXISTENTIAL INTRODUCTION State carefully the conditions that must be satisfied by the variables and terms involved--(5) Apply
+
+36.4 Up to now we have assumed that the plans we create always make sure that an actionís preconditions are satisfied. Let us now investigate what propositional successor-state axioms such as HaveArrowt+1 ? (HaveArrowt ? ¨Shoott ) have to say about actions whose preconditions are not satisfied. a. Show that the axioms predict that nothing will happen when an action is executed in a state where its preconditions are not satisfied. b. Consider a plan p that contains the actions required to achieve a goal but also includes illegal actions. Is it the case that initial state ? successor-state axioms ? p |= goal ? c. With first-order successor-state axioms in situation calculus, is it possible to prove that a plan containing illegal actions will achieve the goal?--(10) Analyze
+
